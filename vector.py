@@ -51,5 +51,3 @@ class Vector:
     def __setitem__(self, index, value):
         self.data[index] = value
     
-    def __repr__(self):
-        return f"Vector({self.x}, {self.y}, {self.z})"
